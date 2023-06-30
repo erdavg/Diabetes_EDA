@@ -6,7 +6,7 @@ data <- read.csv("diabetes_prediction_dataset.csv")
 head(data)
 str(data)
 
-## Remover valo innecesario
+## Remover valor innecesario
 data <- data %>%
   filter(gender != "Other")
 
